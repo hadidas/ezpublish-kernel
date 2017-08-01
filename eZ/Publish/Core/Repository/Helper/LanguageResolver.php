@@ -1,7 +1,11 @@
 <?php
 
-namespace eZ\Publish\Core\Repository\SiteAccessAware\Helper;
+namespace eZ\Publish\Core\Repository\Helper;
 
+/**
+ * @todo Inject languages in a way that it gets updated if SiteAccess changes
+ * @todo add getUseAlwaysAvailable() and take from new setting, use in places like search service
+ */
 class LanguageResolver
 {
     protected $languages;
